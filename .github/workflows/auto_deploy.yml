@@ -19,4 +19,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ rizwan2.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge C:\Users\rizwa\OneDrive\Documents\GitHub\Bootcampfinal/ rizwan2.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
